@@ -1,0 +1,156 @@
+/* Общие стили для обеих страниц */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #191a1d;
+    margin: 0;
+    padding: 0;
+    background-color: #191a1d;
+}
+
+/* Фоновое изображение главной страницы — задание № 1 */
+.home-page {
+    background-image: url("https://fons.grizly.club/uploads/posts/2025-06/28/17510879501952.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Полупрозрачные блоки помогают читать текст поверх фона */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: rgb(255 255 255);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.site-header {
+    background-color: #ff1493;
+    background-image:
+            linear-gradient(rgba(255, 20, 147, 0.30), rgba(255, 20, 147, 0.30)),
+            url("https://fons.grizly.club/uploads/posts/2025-06/04/17490413534347.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #dd256c;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+/* Тень у заголовков — задание № 2 */
+h1 {
+    text-shadow: 2px 2px 4px #191a1d;
+}
+
+h2 {
+    color: #dd256c;
+}
+
+.site-header h1 {
+    color: #dd256c;
+}
+
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #191a1d;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e82653;
+}
+
+a {
+    color: #ff7796;
+}
+
+nav a {
+    color: #ff7796;
+}
+
+/* Скругление углов всех изображений — задание № 3 */
+img {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+}
+
+.site-header img {
+    border: 3px solid white;
+}
+
+footer {
+    background-color: #f43a91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+}
+body {
+    background-image: url("https://fons.grizly.club/uploads/posts/2025-06/28/17510879501952.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px gray;
+}
+
+img {
+    border-radius: 15px;
+}
+
+#myBtn {
+    background-color: hotpink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#myBtn3 {
+    background-color: hotpink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#myBtn:hover {
+    background-color: deeppink;
+}
+#myBtn3:hover {
+    background-color: deeppink;
+}
